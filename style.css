@@ -9,7 +9,8 @@
     text-align: center;
     font-size: 50px;
     margin-bottom: 10px;
-  
+}
+
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -85,13 +86,6 @@ body{
     font-size: 20px;
 }
 
-
-.item-list {
-
-}
-
-.item-breakdown {
-=======
 .item-list{
     width: 700px;
     height: 300px;
@@ -103,8 +97,6 @@ body{
     overflow-y: auto;
 }
 
-
-
 .item-breakdown{
     display: flex;
     justify-content: space-around;
@@ -114,13 +106,6 @@ body{
     margin-right: auto;
 }
 
-
-.items-left {
-
-}
-
-.items-purchased {
-=======
 .items-left{
     width: 300px;
     height: 200px;
@@ -145,7 +130,6 @@ body{
     
 }
 
-
 .name-list{
     line-height: 80px;
         width: 700px;
@@ -153,6 +137,7 @@ body{
         margin-left: auto;
         margin-right: auto;
 }
+
 .name-items{
     line-height: 65px;
         width: 700px;
