@@ -5,12 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grocery Manager</title>
     <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
 
-    <header class="title"></header>
+    <header class="title">
+        <h1 id="h1">Grocery List Organizer</h1>
+    </header>
     <section class="wrapper">
-        <section class="search-bar"></section>
+        <section class="search-bar-container">
+            <div class="search-box">
+                <ion-icon name="search-outline" class="ion-size-search" id="icon-search"></ion-icon>
+                <input type="text" id="search-bar" placeholder="Add groceries">
+                <button class="ion-size-search" id="add-item-btn" onclick=""><ion-icon name="add-outline"></ion-icon></button>
+            </div>
+        </section>
         <section class="item-list"></section>
         <section class="item-breakdown">
             <div class="items-left"></div>
