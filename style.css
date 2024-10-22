@@ -32,7 +32,8 @@
 }
 
 .wrapper{
-    height: 850px;
+    padding: 3%;
+    margin-bottom: 3%;
     width: 850px;
     margin-left: auto;
     margin-right: auto;
@@ -59,7 +60,7 @@ body{
 }
 
 .search-box {
-    border: solid black 2px;
+    border: solid black 1px;
     border-radius: 12px;
     padding: 10px;
 }
