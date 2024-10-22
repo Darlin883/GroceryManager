@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -87,6 +88,7 @@ body {
     font-size: 20px;
 }
 
+
 .item-list {
     width: 700px;
     height: 300px;
@@ -148,6 +150,11 @@ body {
 }
 
 .full-item-list {
+    text-align: center;
+    font-size: 25px;
+}
+
+.fList-strike {
     text-align: center;
     font-size: 25px;
 }
