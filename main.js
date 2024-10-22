@@ -46,6 +46,11 @@ function strikethrough(id) {
   newElement.setAttribute("id", id)
   newElement.textContent = id;
   newElement.classList.add("fList-strike");
+
+  newElement.addEventListener("click", function() {
+    clickCheck(id);  // ---> Ensure re-attached element calls clickCheck
+  });
+  
   let oldElement = document.getElementById(id);
   oldElement.replaceWith(newElement);
 }
