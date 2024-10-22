@@ -12,7 +12,7 @@ function addItem() {
     fList.textContent = textValue; 
     fList.classList.add("full-item-list"); // Adds the CSS element to the tag
     loc.appendChild(fList);
-
+    ele.value = "";
     document.getElementById(textValue).addEventListener("click", function() { strikethrough(textValue); });
   }
 }
