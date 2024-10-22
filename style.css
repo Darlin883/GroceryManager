@@ -30,7 +30,7 @@
 
 }
 
-.wrapper {
+.wrapper{
     padding-bottom: 3%;
     margin-bottom: 3%;
     width: 850px;
@@ -41,11 +41,11 @@
     border-radius: 10px;
 }
 
-body {
+body{
     background-color: #d3d3d3;
 }
 
-.title {
+.title{
     width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -64,20 +64,20 @@ body {
     padding: 10px;
 }
 
-.search-bar {
+#search-bar {
     font-size: 25px;
     outline: none;
     border: none;
 }
 
-.add-item-btn {
+#add-item-btn {
     border: none;
     background-color: white;
     height: 20px;
     margin-top: 6px;
 }
 
-.add-item-btn:hover {
+#add-item-btn:hover {
     border: none;
     background-color: #d3d3d3;
     border-radius: 20px;
@@ -88,7 +88,6 @@ body {
 }
 
 .item-list{
-
     width: 700px;
     height: 300px;
     margin-left: auto;
@@ -99,9 +98,7 @@ body {
     overflow-y: auto;
 }
 
-
 .item-breakdown{
-
     display: flex;
     justify-content: space-around;
     width: 700px;
@@ -109,7 +106,6 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-
 
 .items-left{
     width: 300px;
@@ -120,7 +116,7 @@ body {
     overflow-y: auto;
 }
 
-.items-purchased {
+.items-purchased{
     width: 300px;
     height: 200px;
     border-radius: 5px;
@@ -129,10 +125,18 @@ body {
     overflow-y: auto;
 }
 
-.name-placeholder {
+.name-placeholder{
     display: flex;
     justify-content: space-around;
     
+}
+
+.name-list{
+    line-height: 80px;
+    width: 700px;
+    height: 65px ;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .name-items{
@@ -141,9 +145,4 @@ body {
     height: 60px ;
     margin-left: auto;
     margin-right: auto;
-}
-
-.full-item-list {
-    text-align: center;
-    font-size: 25px;
 }

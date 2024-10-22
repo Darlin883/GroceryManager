@@ -1,3 +1,4 @@
+
 function addItem() {
   let ele = document.getElementById("item");
 
@@ -11,6 +12,9 @@ function addItem() {
     fList.textContent = textValue; 
     fList.classList.add("full-item-list"); // Adds the CSS element to the tag
     loc.appendChild(fList); // Puts message onto screen
+    textValue = "";
   }
+
+  
 }
   
