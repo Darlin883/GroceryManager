@@ -87,10 +87,7 @@ body {
     font-size: 20px;
 }
 
-
-
-.item-list{
-
+.item-list {
     width: 700px;
     height: 300px;
     margin-left: auto;
@@ -101,9 +98,7 @@ body {
     overflow-y: auto;
 }
 
-
-.item-breakdown{
-
+.item-breakdown {
     display: flex;
     justify-content: space-around;
     width: 700px;
@@ -112,8 +107,7 @@ body {
     margin-right: auto;
 }
 
-
-.items-left{
+.items-left {
     width: 300px;
     height: 200px;
     border-radius: 5px;
@@ -137,7 +131,15 @@ body {
     
 }
 
-.name-items{
+.name-list {
+    line-height: 80px;
+    width: 700px;
+    height: 65px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name-items {
     line-height: 65px;
     width: 700px;
     height: 60px ;
