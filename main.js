@@ -1,3 +1,6 @@
+// let properLoc = document.getElementById("item-list-id")
+// properLoc.addEventListener("click", function() { clickCheck(); });
+
 function addItem() {
   // Function called when the add button is clicked on the page
   let ele = document.getElementById("item"); // Item is the id of the text box so this code gets the id of the textbox

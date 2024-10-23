@@ -41,7 +41,13 @@
 }
 
 body {
-  background-color: #d3d3d3;
+  /* background-color: #d3d3d3; */
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://www.mashed.com/img/gallery/grocery-stores-youll-wish-you-knew-about-sooner/intro-1694309137.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  background-attachment: fixed;
+ 
 }
 
 .title {
@@ -49,6 +55,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 2.5%;
+  color: #f1f1f1;
 }
 
 .search-bar-container {
