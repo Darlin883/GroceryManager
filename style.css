@@ -158,3 +158,11 @@ body {
     text-align: center;
     font-size: 25px;
 }
+
+#items-left-id {
+    text-align: center;
+}
+
+#items-remaining-id {
+    text-align: center;
+}

@@ -6,7 +6,7 @@ function addItem() {
   let textValue = ele.value;
 
   if (textValue === "") {
-    console.log("test");
+    return;
   } else {
     let loc = document.getElementById("item-list-id"); 
     let fList = document.createElement("p");
@@ -29,19 +29,30 @@ function addItem() {
 
 function clickCheck(ele) {
   // switched to querySelector since it targets specific elements like <s> && <p>
-  if(ele.querySelector('s')){
+  if(ele.querySelector('s')) {
     // if <s> tag exists inside <p> remove the <s> tag (un-strikethrough)
     let unstrikedText = ele.querySelector('s').textContent;
     ele.innerHTML = unstrikedText; // changes the elements innerHTML to unstrikedText
-  } else{
+    let unPurchased = document.getElementById('items-remaining-id');
+    let newElementUn = document.createElement("p");
+    newElementUn.textContent = unstrikedText;
+    unPurchased.appendChild(newElementUn);
+
+  } else {
       // if no <s> tag exist inside, add it to the text insid<p>(strikethrough)
       let text = ele.textContent;
       ele.innerHTML = `<p><s>${text}</s></p>` // Strikes it
+
+      // Unpurchased items place
+      let purchased = document.getElementById('items-left-id'); // Gets where to put the message
+      let newElementP = document.createElement("p"); // Creates the message tag
+      newElementP.textContent = text; // Places the text into the p tag
+      purchased.appendChild(newElementP); // places the tag into the given container
   }
 
 
 
-//everything after this can be deleted
+// everything after this can be deleted
 
 
 
