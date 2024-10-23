@@ -36,7 +36,7 @@ function clickCheck(ele) {
   } else{
       // if no <s> tag exist inside, add it to the text insid<p>(strikethrough)
       let text = ele.textContent;
-      ele.innerHTML = `<s>${text}</s>` // Strikes it
+      ele.innerHTML = `<p><s>${text}</s><p>` // Strikes it
   }
 
 
